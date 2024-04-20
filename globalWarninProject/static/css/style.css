@@ -1,0 +1,144 @@
+header{
+    display: flex;
+    justify-content: start;
+    background-color:white;
+    margin: 4px;
+    margin-bottom:0px ;
+    /*border-radius:15px ;*/
+    border-bottom: #dcecf9 solid ;
+}
+
+a{
+    text-decoration: none;
+    color: #3792d9;
+}
+
+.headTextH1 {
+    display: flex;
+    color: #3792d9;
+    font-family: Montserrat;
+    margin: 0.3em;
+    margin-left: 1em;
+    border-right: #3792d9 solid;
+    padding-right: 1em;
+}
+
+.headTextRight{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: Montserrat;
+    margin: 0.3em;
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    background-color: #3792d9;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 4px;
+    margin-top: 0px;
+    flex-direction: column;
+}
+
+.firstMain{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainInfoContainer{
+    display: flex;
+    color: #3792d9;
+    font-family: Montserrat;
+    margin: 1em;
+    flex-direction: column;
+}
+
+.mainImageContainer{
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+.secondMain{
+    display: flex;
+    justify-content: space-around;
+}
+
+.thirdMain{
+
+}
+
+.mainCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mainCard{
+    text-align: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: start;*/
+    font-family: Montserrat;
+    flex-direction: column;
+
+    font-size: 1em;
+    color: #3792d9;
+    width: 20em;
+    height: 18em;
+    border:#3792d9 solid 0.2em;
+    border-radius: 20px;
+    margin-bottom: 1em;
+}
+
+.cardTitle{
+    border-bottom: solid #3792d9;
+    height: 3em;
+}
+
+.footerContainer{
+    color: #c9d9f4;
+    font-family: Montserrat;
+    margin: 1em;
+}
+
+footer a{
+    color: #c9d9f4;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footerLinks{
+    display: flex;
+    justify-content: start;
+}
+
+footer a:hover{
+    color: #eb8b29;
+    cursor: pointer;
+    transition: 1s;
+}
+
+footer{
+    display: flex;
+    height: 5em;
+}
+
+li{
+    margin-bottom: 1em;
+}
+
+p{
+    font-size: 1.05em;
+}
+
+footer p{
+    margin: 0;
+}
